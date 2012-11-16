@@ -12,7 +12,7 @@ It grabs the last 100 issues(by default), then averages their lifespan by using 
 
 Edit `stats.js` to point at a different repository
 
-Examples
+## Examples
 
 ## [h5bp/html5-boilerplate](http://github.com/h5bp/html5-boilerplate)
 
