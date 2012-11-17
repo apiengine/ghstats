@@ -1,6 +1,26 @@
 {
+  "version": "0.0.1",
+  "name": "ghstats",
+  "description": "Command line tool to find interesting stats about a given Github repository",
+  "keywords": [
+    "github stats",
+    "repo stats"
+  ],
+  "homepage": "http://github.com/apiengine/ghstats",
+  "author": "Thomas Davis <thomasalwyndavis@gmail.com> (http://thomasdav.is)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apiengine/ghstats"
+  },
+  "bugs": {
+    "email": "thomasalwyndavis@gmail.com",
+    "url": "http://github.com/apiengine/ghstats/issues"
+  },
+  "bin": "./bin/ghstats.js"
   "dependencies": {
     "lodash": "~0.9.2",
-    "superagent": "~0.10.0"
+    "superagent": "~0.10.0",
+    "commander": "~1.1.0",
+    "cli-color": "~0.2.1"
   }
 }
