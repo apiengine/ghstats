@@ -22,5 +22,11 @@
     "superagent": "~0.10.0",
     "commander": "~1.1.0",
     "cli-color": "~0.2.1"
-  }
+  },
+  "licenses": [
+    {
+      "type": "UNLICENSE",
+      "url": "https://github.com/apiengine/ghstats/raw/master/LICENSE"
+    }
+  ]
 }

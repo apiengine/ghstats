@@ -8,9 +8,7 @@ It grabs the last 100 issues(by default), then averages their lifespan by using 
 
 1. `clone the repo`
 2. `npm install`
-3. `node stats.js`
-
-Edit `stats.js` to point at a different repository
+3. `node stats.js apiengine/github-stats`
 
 ## Examples
 
