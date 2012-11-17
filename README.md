@@ -1,34 +1,65 @@
-# Github Average Ticket Time
+# ghstats
 
-Hey guys, wrote a small little script to see how long on average it takes for issues to be closed on a Github repository.
+Command line tool to find interesting stats about a given Github repository
 
-It grabs the last 100 issues(by default), then averages their lifespan by using the creation and close dates.
+## Installation
 
-## Setup
+    $ npm install -g ghstats
 
-1. `clone the repo`
-2. `npm install`
-3. `node stats.js apiengine/github-stats`
+## Usage 
+
+    Usage: ghstats [options] [command]
+
+    Commands:
+
+      issues <repo>      Grabs useful information about the repos issues
+
+    Options:
+
+      -h, --help               output usage information
+      -V, --version            output the version number
+      -m, --maxissues [total]  Specify the max number of issues you want to analyse starting from the most recent. Maxium of 100. [total]
+
+
 
 ## Examples
 
-## [h5bp/html5-boilerplate](http://github.com/h5bp/html5-boilerplate)
+    ghstats issues h5bp/html5-boilerplate
+    h5bp/html5-boilerplate
+    Average time taken to close issue: 2.41 days
 
-```
-Average hours: 63.92
-Average days: 2.66
-```
 
-## [cdnjs/cdnjs](cdnjs/cdnjs)
+    ghstats issues cdnjs/cdnjs           
+    cdnjs/cdnjs
+    Average time taken to close issue: 1.28 days
 
-```
-Average hours: 93.68
-Average days: 3.9
-```
+    ghstats issues twitter/bootstrap
+    twitter/bootstrap
+    Average time taken to close issue: 21.82 hours
 
-## [twitter/bootstrap](http://github.com/twitter/bootstrap)
+## License
 
-```
-Average hours: 20.97
-Average days: 0.87
-```
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <http://unlicense.org/>

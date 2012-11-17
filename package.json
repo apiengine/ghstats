@@ -16,7 +16,7 @@
     "email": "thomasalwyndavis@gmail.com",
     "url": "http://github.com/apiengine/ghstats/issues"
   },
-  "bin": "./bin/ghstats.js"
+  "bin": "./bin/ghstats.js",
   "dependencies": {
     "lodash": "~0.9.2",
     "superagent": "~0.10.0",
