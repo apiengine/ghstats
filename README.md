@@ -37,6 +37,10 @@ Command line tool to find interesting stats about a given Github repository
     twitter/bootstrap
     Average time taken to close issue: 21.82 hours
 
+## Contribute
+
+Would be great to have more commands to get more interesting information from Github. Submit request and your own commands on the issues page.
+
 ## License
 
 This is free and unencumbered software released into the public domain.
