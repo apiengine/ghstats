@@ -24,16 +24,16 @@ Command line tool to find interesting stats about a given Github repository
 
 ## Examples
 
-    ghstats issues h5bp/html5-boilerplate
+    $ ghstats issues h5bp/html5-boilerplate
     h5bp/html5-boilerplate
     Average time taken to close issue: 2.41 days
 
 
-    ghstats issues cdnjs/cdnjs           
+    $ ghstats issues cdnjs/cdnjs           
     cdnjs/cdnjs
     Average time taken to close issue: 1.28 days
 
-    ghstats issues twitter/bootstrap
+    $ ghstats issues twitter/bootstrap
     twitter/bootstrap
     Average time taken to close issue: 21.82 hours
 
